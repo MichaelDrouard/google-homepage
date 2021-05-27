@@ -1,6 +1,10 @@
+@import url('https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Asearch');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 body{
     margin: 0px;
-    
+    font-family: "Liberation Sans";
+    color: black;
+    font-size: 14px;
 }
 div.main{
     display: flex;
@@ -9,7 +13,6 @@ div.main{
     height: 100vh;
     background-color: white;
     align-items: center;
-    justify-content: center;
 }
 #search{
     border-top-style: hidden;
@@ -19,6 +22,8 @@ div.main{
     background-color: white;
     width: 527px;
     height: 34px;
+    font-family: Arial, sans-serif;
+    color: rgba(0,0,0,.87);
 
 }
 .search:focus{
@@ -26,11 +31,61 @@ div.main{
 }
 div.search{
     background-color: white;
-    width: 582px;
+    width: auto;
+    max-width: 584px;
     height: 44px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
-    border-radius: 40px 40px 40px 40px;
+    border: 1.1px solid #dfe1e5;
+    border-radius: 24px 24px 24px 24px;
+}
+#search-icon{
+    width: 20px;
+    height: 20px;
+    padding-right: 13px;
+    padding-left: 14px;
+    margin-top: -5px;
+    line-height: 24px;
+    color: #9aa0a6;
+}
+div.top{
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+img{
+    max-height: 92px;
+    height: 100%;
+    position: relative;
+    margin-top: auto;
+}
+div.form{
+    padding: 20px;
+    max-height: 160px;
+    flex-shrink: 0;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+a.left-header{
+    margin-left: 10px;
+    
+}
+div.left{
+    margin-left: 5px;
 }
