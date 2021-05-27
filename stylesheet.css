@@ -2,7 +2,7 @@ body{
     margin: 0px;
     
 }
-div.test{
+div.main{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -10,4 +10,27 @@ div.test{
     background-color: white;
     align-items: center;
     justify-content: center;
+}
+#search{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: white;
+    width: 527px;
+    height: 34px;
+
+}
+.search:focus{
+    outline: none;
+}
+div.search{
+    background-color: white;
+    width: 582px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px 40px 40px 40px;
 }
