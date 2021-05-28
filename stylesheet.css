@@ -139,6 +139,8 @@ button.button:hover{
     border-color: lightgrey;
     padding: 10px;
     border-radius: 4px 4px 4px 4px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 #buttons{
     display: flex;
