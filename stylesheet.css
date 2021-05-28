@@ -120,13 +120,15 @@ a.right-header{
     margin: 6px;
 }
 button.button{
-    margin: 12px;
+    margin: 6px;
     margin-top: 28px;
-    background: white;
+    background: #f8f9fa;
     border-width: 1px;
     border-color: transparent;
     box-shadow: none;
     padding: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
     font-family: "Liberation Sans";
     font-size: 14px;
 }
